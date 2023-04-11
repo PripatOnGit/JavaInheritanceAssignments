@@ -1,0 +1,8 @@
+package com.java;
+
+abstract class Publication {
+	int noOfPages;
+	int price;
+	String publisherName;
+	
+}

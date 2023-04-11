@@ -1,0 +1,15 @@
+package com.java;
+
+public class Library {
+	String[] publication = new String[10];
+	Library() {}
+	
+	
+	
+	public static void main(String[] args) {
+		Library l1= new Library();
+		Books b1 = new Books(250,400,"Seal Pubs");
+		Books b2 = new Books(1250,800,"SealDiv Pubs");
+		Books b3 = new Books(2530,300,"NYSeal Pubs");
+	}
+}

@@ -1,0 +1,20 @@
+package com.java;
+
+public class Library {
+	Publication[] p = new Publication[10];
+	int temp;
+	Library() {}
+	
+	public void addBook(Books b) {
+		this.p[temp] = b;
+		System.out.println("Book Added");
+		temp++;
+	}
+	public static void main(String[] args) {
+		Library l1= new Library();
+		Books b1 = new Books(250,400,"Seal Pubs");
+		Books b2 = new Books(1250,800,"SealDiv Pubs");
+		Books b3 = new Books(2530,300,"NYSeal Pubs");
+		l1.addBook(b1);
+	}
+}

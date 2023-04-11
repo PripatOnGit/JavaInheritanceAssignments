@@ -1,0 +1,8 @@
+package com.java;
+
+public class Library {
+	String[] publication = new String[10];
+	public static void main(String[] args) {
+		
+	}
+}

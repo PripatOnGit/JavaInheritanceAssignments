@@ -1,0 +1,16 @@
+package com.java;
+
+public class Books extends Publication {
+	int id;
+	String name;
+	int pages;
+	int price;
+
+	public Books(int id, String name, int pages, int price) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.pages = pages;
+		this.price = price;
+	}
+}

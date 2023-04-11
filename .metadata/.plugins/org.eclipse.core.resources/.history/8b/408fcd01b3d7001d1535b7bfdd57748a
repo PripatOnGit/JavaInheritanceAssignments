@@ -1,0 +1,10 @@
+package com.java;
+
+public class Journal extends Publication {
+	int id;
+	String name;
+	int pages;
+	int price;
+	
+	Journal(){}
+}

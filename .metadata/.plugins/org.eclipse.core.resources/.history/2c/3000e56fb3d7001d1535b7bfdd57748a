@@ -1,0 +1,12 @@
+package com.java;
+
+public class Library {
+	String[] publication = new String[10];
+	Library() {}
+	
+	
+	
+	public static void main(String[] args) {
+		Books b1 = new Books(1,"OS",250,);
+	}
+}
