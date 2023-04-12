@@ -17,13 +17,12 @@ public class Professor extends Employee {
 		System.out.println("Professor created!");
 	}
 	
-	
-	
 	public void addCourses(String course) {
 		courses[temp] = course;
 		System.out.println("Course "+course+ " is added!!");
 		temp++;
 	}
+	
 	public void removeCourses(String course) {
 		for(int i=0;i<temp;i++) {
 			if(courses[i] != course) {
@@ -43,6 +42,7 @@ public class Professor extends Employee {
 			System.out.println(""+courses[i]);
 		}
 	}
+	
 	public String toString() {
 		return "p1 added "+this.age+" "+this.address+" "+String.join(" ",this.courses);
 	}
